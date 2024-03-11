@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React from 'react'
 
 function sidebar() {
@@ -19,7 +20,7 @@ function sidebar() {
 <li className="nav-item active">
     <a className="nav-link" href="index.html">
         {/* <i className="fas fa-fw fa-tachometer-alt"></i> */}
-        <span>Notes App</span></a>
+        <span>Medicine</span></a>
 </li>
 
 {/* <!-- Divider --> */}
@@ -33,6 +34,41 @@ function sidebar() {
         aria-expanded="true" aria-controls="collapseTwo">
         {/* <i className="fas fa-fw fa-cog"></i> */}
         <span>Notes</span>
+    </a>
+   </li>
+   <li className="nav-item">
+    <a className="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo"
+        aria-expanded="true" aria-controls="collapseTwo">
+        {/* <i className="fas fa-fw fa-cog"></i> */}
+        <span>Account Number</span>
+    </a>
+   </li>
+   <li className="nav-item">
+    <a className="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo"
+        aria-expanded="true" aria-controls="collapseTwo">
+        {/* <i className="fas fa-fw fa-cog"></i> */}
+        <span>Patient Name</span>
+    </a>
+   </li>
+   <li className="nav-item">
+    <a className="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo"
+        aria-expanded="true" aria-controls="collapseTwo">
+        {/* <i className="fas fa-fw fa-cog"></i> */}
+        <span>Admit</span>
+    </a>
+   </li>
+   <li className="nav-item">
+    <a className="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo"
+        aria-expanded="true" aria-controls="collapseTwo">
+        {/* <i className="fas fa-fw fa-cog"></i> */}
+        <span>Disc Date</span>
+    </a>
+   </li>
+   <li className="nav-item">
+    <a className="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo"
+        aria-expanded="true" aria-controls="collapseTwo">
+        {/* <i className="fas fa-fw fa-cog"></i> */}
+        <span>Patient Type</span>
     </a>
    </li>
 </ul>
